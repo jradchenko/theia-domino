@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "theia-domino-extension",
-  "version": "1.13.0",
+  "version": "0.0.1",
   "description": "Domino Configuration Extension",
   "dependencies": {
     "@theia/core": "1.13.0",
@@ -32,6 +32,7 @@
     "src"
   ],
   "scripts": {
+    "prepare": "yarn run clean && yarn run build",
     "build": "tsc",
     "watch": "tsc -w",
     "clean": "rimraf lib"

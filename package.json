@@ -31,7 +31,7 @@
     "start:browser": "yarn --cwd applications/browser run start"
   },
   "workspaces": [
-    "applications/*",
-    "theia-extensions/*"
+    "theia-extensions/*",
+    "applications/*"
   ]
 }
