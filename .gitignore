@@ -9,3 +9,6 @@
 **/plugins
 **/tsconfig.tsbuildinfo
 *.log
+
+Dockerfile
+.dockerignore

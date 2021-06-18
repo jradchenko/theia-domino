@@ -4,6 +4,12 @@
   "version": "0.0.1",
   "license": "EPL-2.0 OR GPL-2.0 WITH Classpath-exception-2.0",
   "theia": {
+    "target": "browser",
+    "generator": {
+      "config": {
+        "preloadTemplate": "assets/preload.html"
+      }
+    },
     "frontend": {
       "config": {
         "applicationName": "Domino IDE",
@@ -53,9 +59,10 @@
     "@theia/variable-resolver": "1.13.0",
     "@theia/vsx-registry": "1.13.0",
     "@theia/workspace": "1.13.0",
-    "theia-jupyter-extension": "^0.0.12",
-    "theia-rstudio-extension": "^0.0.12",
-    "theia-domino-extension": "0.0.1"
+    "theia-domino-extension": "0.0.1",
+    "theia-jupyter-extension": "^0.0.16",
+    "theia-rstudio-extension": "^0.0.16",
+    "theia-server-proxy-list-extension": "^0.0.16"
   },
   "scripts": {
     "prepare": "yarn run clean && yarn build",

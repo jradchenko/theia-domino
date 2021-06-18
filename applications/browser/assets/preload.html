@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        .theia-preload {
+            background-image: none;
+        }
+
+        .spinner-container {
+          display: flex;
+          flex-direction: center;
+          align-self: center;
+          justify-content: center;
+          height: 100vh;
+          width: 100vw;
+        }
+
+        .custom-spinner {
+          align-self: center;
+          flex-direction: row;
+        }
+
+        .theia-icon {
+          height: 256px;
+          width: 256px;
+          -webkit-animation:spin 1.5s linear infinite;
+          -moz-animation:spin 1.5s linear infinite;
+          animation:spin 1.5s linear infinite;
+          background-size: cover;
+        }
+
+        @-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+        @-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+        @keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+    </style>
+</head>
+
+<body>
+  <div class='spinner-container'>
+    <div class='custom-spinner'>
+      <div class="theia-icon" />
+    </div>
+  </div>
+</body>
+
+</html>
