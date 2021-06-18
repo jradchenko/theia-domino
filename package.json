@@ -28,6 +28,7 @@
     "bundle": "lerna run bundle",
     "watch": "lerna run --parallel watch",
     "test": "lerna run test",
+    "download:plugins": "yarn --cwd applications/browser theia download:plugins",
     "start:browser": "yarn --cwd applications/browser run start"
   },
   "workspaces": [

@@ -11880,29 +11880,31 @@ textextensions@^2.5.0:
   resolved "https://registry.yarnpkg.com/textextensions/-/textextensions-2.6.0.tgz#d7e4ab13fe54e32e08873be40d51b74229b00fc4"
   integrity sha512-49WtAWS+tcsy93dRt6P0P3AMD2m5PvXRhuEA0kaXos5ZLlujtYmpmFsB+QvWUSxE1ZsstmYXfQ7L40+EcQgpAQ==
 
-theia-jupyter-extension@^0.0.15:
-  version "0.0.15"
-  resolved "https://registry.yarnpkg.com/theia-jupyter-extension/-/theia-jupyter-extension-0.0.15.tgz#cc5a1848c397a771abad299a10842fb81d1628ab"
-  integrity sha512-Kb/HtusDReraYIfoA2EnQbb4M33ns/fWTkRgaacvrLKrraD3H5lZf02euNizf/CpewEBCRxrqi119Qm0FsJT8A==
+theia-jupyter-extension@^0.0.16:
+  version "0.0.16"
+  resolved "https://registry.yarnpkg.com/theia-jupyter-extension/-/theia-jupyter-extension-0.0.16.tgz#c20a1a58b4ee2ecfa1d5ebb4c25e7387edabc002"
+  integrity sha512-041smodDrNCxBO7sNE66NA2enagxhLTT4VzUk9VT4gzBGl8yb0QBa6kJrTFDqPJpSZSd2S4s+1TEbUWoFs1SXQ==
   dependencies:
     "@theia/core" "1.13.0"
     "@theia/navigator" "1.13.0"
     http-proxy-middleware "^1.0.6"
-    theia-server-proxy-extension "^0.0.15"
-    theia-server-proxy-iframe-extension "^0.0.15"
+    theia-server-proxy-extension "^0.0.16"
+    theia-server-proxy-iframe-extension "^0.0.16"
 
-theia-rstudio-extension@./theia-server-proxy-extension/theia-rstudio-extension:
-  version "0.0.15"
+theia-rstudio-extension@^0.0.16:
+  version "0.0.16"
+  resolved "https://registry.yarnpkg.com/theia-rstudio-extension/-/theia-rstudio-extension-0.0.16.tgz#6e1fa250e247916af7a355b33e0439d07c33fdc1"
+  integrity sha512-+4a1TWT0c+Z8EAswvXhrEUrxq57G7XDLcNvbcUlj7WrFrssctGjMwLl/rHb6e7bjmzzxfD8nSTXgYpoo9kJ4pg==
   dependencies:
     "@theia/core" "1.13.0"
     "@theia/navigator" "1.13.0"
     http-proxy-middleware "^1.0.6"
-    theia-server-proxy-extension "^0.0.15"
+    theia-server-proxy-extension "^0.0.16"
 
-theia-server-proxy-extension@^0.0.15:
-  version "0.0.15"
-  resolved "https://registry.yarnpkg.com/theia-server-proxy-extension/-/theia-server-proxy-extension-0.0.15.tgz#e656de1220081967d8ab2820b3e3f3635e224a69"
-  integrity sha512-6Km9iFh2C2MbOFMKWAATerUsjoKbcErG3+eXziOVQCrXIdMMLcUcGGVyZtU3c711gaxsAixbLNzaAqeYCPdhkQ==
+theia-server-proxy-extension@^0.0.16:
+  version "0.0.16"
+  resolved "https://registry.yarnpkg.com/theia-server-proxy-extension/-/theia-server-proxy-extension-0.0.16.tgz#cdf70ebf65b0d32a3e4f789cdc68187490374299"
+  integrity sha512-aaRI5mE7Ha3uScINzdXJAStzTj115r2FnE0k0pDHtHlYMl0Xsqwtr4Q25Q3EEKR4lA/yDZM0tHl/mS1EdVOqkg==
   dependencies:
     "@theia/core" "1.13.0"
     "@theia/filesystem" "1.13.0"
@@ -11912,12 +11914,12 @@ theia-server-proxy-extension@^0.0.15:
     "@theia/workspace" "1.13.0"
     get-port "^5.1.1"
     http-proxy-middleware "^1.0.6"
-    theia-server-proxy-iframe-extension "^0.0.15"
+    theia-server-proxy-iframe-extension "^0.0.16"
 
-theia-server-proxy-iframe-extension@^0.0.15:
-  version "0.0.15"
-  resolved "https://registry.yarnpkg.com/theia-server-proxy-iframe-extension/-/theia-server-proxy-iframe-extension-0.0.15.tgz#807a7d021c852183fe80c4b41239b869e6d79d31"
-  integrity sha512-/heasjY7H86XpmAOReOcifFBQarVdGEkb4Y34r6O2EHh1QSKGGI7B1nT4Bimpm9ztN+j5d3Ccpydb2KzTovWxA==
+theia-server-proxy-iframe-extension@^0.0.16:
+  version "0.0.16"
+  resolved "https://registry.yarnpkg.com/theia-server-proxy-iframe-extension/-/theia-server-proxy-iframe-extension-0.0.16.tgz#586daeea3f163d16cad9f5dccf0bcbc6b89f6418"
+  integrity sha512-8UlSyxrcNCHRrgvM9cQ9Bs0riSPMGptXob4fVhM8dAdHizoaruWP8ExUyO667WeX1nZX5NC/8zUUiWFZjT/WrA==
   dependencies:
     "@theia/core" "1.13.0"
     "@theia/filesystem" "1.13.0"
@@ -11926,10 +11928,10 @@ theia-server-proxy-iframe-extension@^0.0.15:
     "@theia/plugin-ext" "1.13.0"
     "@theia/workspace" "1.13.0"
 
-theia-server-proxy-list-extension@^0.0.15:
-  version "0.0.15"
-  resolved "https://registry.yarnpkg.com/theia-server-proxy-list-extension/-/theia-server-proxy-list-extension-0.0.15.tgz#d65925dd74d2c22a514c7b67197bc7fcc454d3c1"
-  integrity sha512-ASLHRXGAdo/WBOMTn+bW7T52KsTg8Rbs8BIbqmL72W6mSSOpq1MQQ4KZ2dH/i3x5zlnbLU3hESErW3o2i5VIbg==
+theia-server-proxy-list-extension@^0.0.16:
+  version "0.0.16"
+  resolved "https://registry.yarnpkg.com/theia-server-proxy-list-extension/-/theia-server-proxy-list-extension-0.0.16.tgz#1c8a7c51d3712302cebb4a5995468e1338c4c342"
+  integrity sha512-9CqD3deBYOcnjTmhjohrIX+cbaXajkjrhIPzyg2zyovTw9d5KrHFUC2gB30UXULF8sr9+CdpDDVu5uK0inHN/g==
   dependencies:
     "@theia/core" "1.13.0"
     "@theia/filesystem" "1.13.0"
@@ -11938,7 +11940,7 @@ theia-server-proxy-list-extension@^0.0.15:
     "@theia/workspace" "1.13.0"
     get-port "^5.1.1"
     http-proxy-middleware "^1.0.6"
-    theia-server-proxy-extension "^0.0.15"
+    theia-server-proxy-extension "^0.0.16"
 
 through2@^2.0.0, through2@^2.0.2:
   version "2.0.5"
